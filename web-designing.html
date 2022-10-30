@@ -105,18 +105,6 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-xs-5 width-auto sm-width-15 xs-width-20">
-                                <div class="header-searchbar">
-                                    <a href="#search-header" title="Search" class="header-search-form"><i class="fa fa-search search-button"></i></a>
-                                    <!-- search input-->
-                                    <form id="search-header" method="post" action="#." name="search-header" class="search-form-result mfp-hide">
-                                        <div class="search-form position-relative">
-                                            <button type="submit" class="fa fa-search close-search search-button"></button>
-                                            <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off";>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </nav>
@@ -266,8 +254,20 @@
 </div>
     <!-- Push Nav Link -->
     <ul class="navbar outer-nav right vertical alt-font">
-        <li><a href="index.html" class="icon-home">Home</a></li>
-        <li><a href="about-page.html" class="icon-features">About</a></li>
+        <li><a href="index.html" class="scroll icon-home">Home</a></li>
+        <li><a href="about-page.html"><i class="fa-solid fa-user"></i> About</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"   role="button" aria-haspopup="true" aria-expanded="false" class="icon-features"> <i class="fa-solid fa-gear"></i> SERVICES</a>
+            <ul class="dropdown-menu border-radius-5">
+                <li><a href="web-designing.html"><span class="text-black">Web Designing</span></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="digital-marketing.html"><span class="text-black">Digital Marketing</span></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="application-development.html"><span class="text-black">Application development</span></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="graphic-designing.html"><span class="text-black">Graphic Design & Branding</span></a></li>
+            </ul>
+        </li>
         <li><a href="portfolio-page.html" class="icon-work">Portfolio</a></li>
         <li><a href="career.html" class="icon-pricing">Career</a></li>
         <li><a href="team-page.html" class="icon-blog">Our Team</a></li>
