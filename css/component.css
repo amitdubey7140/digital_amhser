@@ -366,7 +366,7 @@ html, body, .perspective {
 	transition: .4s !important;
 }
 
-.effect-moveleft.animate .outer-nav a {
+.effect-moveleft.animate .outer-nav a,.effect-moveleft.animate .outer-nav dt {
 	opacity: 1;
 	-webkit-transform: translateX(0) translateZ(0);
 	transform: translateX(0) translateZ(0);
@@ -401,7 +401,7 @@ html, body, .perspective {
 	-webkit-transition-delay: 0.24s;
 	transition-delay: 0.24s;
 }
-.outer-nav a:hover,.outer-nav a:focus, .outer-nav a:active{
+.outer-nav a:hover,.outer-nav a:focus, .outer-nav a:active,.outer-nav dt:hover,.outer-nav dt:focus, .outer-nav dt:active{
 	color: #fff !important;
 }
 
