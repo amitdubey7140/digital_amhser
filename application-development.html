@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="css/animate.min.css"/>
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
-     <!-- bootstrap icon -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
     <!-- font-awesome icon -->
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -43,7 +43,6 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/custom.css"/>
 
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -63,7 +62,7 @@
                     <div class="container nav-header-container">
                         <div class="row">
                             <div class="col-md-2 col-xs-5">
-                                <a href="#home" title="Logo" class="logo inner-link"><img src="images/logo.png" class="logo-dark" alt="Digital Amhser"><img src="images/logo.png" alt="Digital Amhser" class="logo-light default"></a>
+                                <a href="#home" title="Logo" style="font-size: 3rem; font-weight: 900;"><span class="text-blue">Digital</span> <span class="text-dark-blue">Amhser</span></a>
                             </div>
                             <!-- end logo -->
                             <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right hidden-sm hidden-xs no-padding">
@@ -71,28 +70,37 @@
                                     <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                         <!-- start menu item -->
                                         <li>
-                                            <a href="index.html#home">Home</a>
+                                            <a href="index.html">Home</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#about">About As</a>
+                                            <a href="about-page.html">About Us</a>
                                         </li>
-                                        <li class="active">
-                                            <a href="index.html#services">Services</a>
+                                        <li class="dropdown active">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"   role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                                            <ul class="dropdown-menu border-radius-5">
+                                                <li><a href="web-designing.html"><span class="text-black">Web Designing</span></a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="digital-marketing.html"><span class="text-black">Digital Marketing</span></a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#"><span class="text-black">Application development</span></a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="graphic-designing.html"><span class="text-black">Graphic Design & Branding</span></a></li>
+                                            </ul>
                                         </li>
                                         <li>
-                                            <a href="index.html#work">Portfolio</a>
+                                            <a href="portfolio-page.html">Portfolio</a>
                                         </li>
                                         <li>
                                             <a href="career.html">Career</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#blog">Blog</a>
+                                            <a href="team-page.html">Our Team</a>
                                         </li>
                                         <li>
-                                            <a href="index.html/#contact">Contect As</a>
+                                            <a href="contact-page.html">CONTACT US</a>
                                         </li>
                                         <li>
-                                            <a href="index.html/#payNow">Pay Now</a>
+                                            <a href="pay-now-page.html">Pay Now</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -121,24 +129,29 @@
             </header>
 <!-- end header -->
 
-<!-- web-designing cover-->
-<section class="bg blog-cover">
-    <div class="container" style="z-index: 0;">
+<section class="md-margin-80px-top no-padding-bottom">
+    <!-- web-designing cover-->
+<section  class="padding-20px-tb">
+    <div class="container">
         <div class="text-center sm-padding-40px-tb sm-padding-15px-lr">
-            <h5 class="text-uppercase alt-font text-black margin-20px-bottom font-weight-700">
-                Mobile Application </h5>
+            <h5 class="area-title text-capitalize alt-font text-extra-dark-gray font-weight-500 sm-width-100 xs-width-100">
+               Application Development</h5>
+            <div class="seperator margin-20px-bottom">
+                <hr class="seperator-two">
+                <hr class="seperator-one">
+            </div>
 
-            <div class="text-large text-uppercase main-font text-black margin-20px-bottom font-weight-500 sm-width-100 xs-width-100">
+            <div class="text-large text-uppercase main-font text-black margin-20px-bottom margin-30px-top font-weight-300 sm-width-100 xs-width-100">
                 Mobile applications that amplify your business!
             </div>
-            <p class="text-black margin-5px-bottom font-weight-500">We have a complete team, which comprises of experts with diverse proficiency in software architecture, business analytics, quality assurance, digital marketing and trend analytics who down the years of experience have attained the niche for Web Development. With unleashed creativity, profound knowledge on the cutting edge technologies our experts are committed to provide you a state-of-art web application which not only meets your business need, but equip to reach your customers and catalyse to reach your goals.</p>
+            <p class="font-weight-300">We have a complete team, which comprises of experts with diverse proficiency in software architecture, business analytics, quality assurance, digital marketing and trend analytics who down the years of experience have attained the niche for Web Development. With unleashed creativity, profound knowledge on the cutting edge technologies our experts are committed to provide you a state-of-art web application which not only meets your business need, but equip to reach your customers and catalyse to reach your goals.</p>
         </div>
     </div>
 </section>
 <!-- web-designing end-->
 
 <!-- web-designing content-->
-<section id="shop" class="shop-details text-left">
+<section id="shop" class="shop-details text-left no-padding-bottom">
     <h2 class="display-none" aria-hidden="true">Finza</h2>
     <div class="container">
         <div class="row margin-80px-bottom">
@@ -158,7 +171,7 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row margin-80px-bottom">
-                        <div class="col-sm-3 col-lg-4 border border-dark ">
+                        <div class="col-sm-3 col-lg-4 padding-30px-all">
                             <div class="card counter-item border border-dark text-center sm-margin-30px-bottom">
                                 <div class="counter-icon bg-grd-dark-blue margin-20px-bottom">
                                     <i class="fa-brands fa-android" aria-hidden="true"></i>
@@ -174,7 +187,7 @@
                         </div>
 
 
-                        <div class="col-sm-3 col-lg-4">
+                        <div class="col-sm-3 col-lg-4 padding-30px-all"">
                             <div class="card counter-item text-center sm-margin-30px-bottom">
                                 <div class="counter-icon bg-grd-dark-blue margin-20px-bottom">
                                     <i class="fa-brands fa-apple" aria-hidden="true"></i>
@@ -190,7 +203,7 @@
                         </div>
 
 
-                        <div class="col-sm-3 col-lg-4">
+                        <div class="col-sm-3 col-lg-4 padding-30px-all"">
                             <div class=" card counter-item text-center sm-margin-30px-bottom">
                                 <div class="counter-icon bg-grd-dark-blue margin-20px-bottom">
                                     <i class="fa-solid fa-vr-cardboard" aria-hidden="true"></i>
@@ -207,7 +220,7 @@
 
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 col-lg-4">
+                        <div class="col-sm-3 col-lg-4 padding-30px-all"">
                             <div class="card counter-item text-center sm-margin-30px-bottom">
                                 <div class="counter-icon bg-grd-dark-blue margin-20px-bottom">
                                     <i class="bi bi-headset-vr" aria-hidden="true"></i>
@@ -222,7 +235,7 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-3 col-lg-4">
+                        <div class="col-sm-3 col-lg-4 padding-30px-all"">
                             <div class="card counter-item text-center sm-margin-30px-bottom">
                                 <div class="counter-icon bg-grd-dark-blue margin-20px-bottom">
                                     <i class="fa-brands fa-react" aria-hidden="true"></i>
@@ -237,7 +250,7 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-3 col-lg-4">
+                        <div class="col-sm-3 col-lg-4 padding-30px-all"">
                             <div class="card counter-item text-center sm-margin-30px-bottom">
                                 <div class="counter-icon bg-grd-dark-blue margin-20px-bottom">
                                     <i class="fa-sharp fa-solid fa-mobile" aria-hidden="true" ></i>
@@ -257,24 +270,23 @@
             </section>
 
 
-        <div class="row margin-80px-bottom">
-            <div class="col-md-7 col-sm-7 shop_info wow fadeInRight animated text-left">
+        <div class="row margin-80px-bottom md-padding-20px-all">
+            <div class="col-md-6 col-md-push-6 wow fadeInLeft animated">
+                <div class="image-zoom">
+                    <img src="images/ui-ux-design-500x500.jpeg" height="500" width="500" alt="Finza">
+                </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6 shop_info wow fadeInRight animated text-left">
                 <h6 class="text-uppercase alt-font text-extra-gray margin-20px-bottom font-weight-500 sm-width-100 xs-width-100 xs-margin-30px-top">
                     User Experience & Design  </h6>
                 <p class="margin-15px-bottom">WThere are thousands, if not millions, of apps available on Android and iOS. From social media to tools, mobile apps have become a popular way to share information and simplify users' everyday life. It's no wonder that companies are rushing to hunt for the best app developers in Dubai, UAE.</p>
                 <p>However, finding the right mobile app development company in Dubai can be challenging. While there is no shortage of options, you must find the perfect agency that can bring your vision to life and make it extraordinary.</p>
                 <p>While app development is no easy feat, we endeavor to make it hassle-free for you and potential users of the app. This is where user experience (UX) and your app's design come to play. UX and design are two of the most fundamental parts of creating a mobile app. Thus, we make it our priority to create a balance between these two key factors.</p>
-            </div>
-
-            <div class="col-md-5 col-sm-5 wow fadeInLeft animated">
-                <div class="image-zoom">
-                    <img src="images/ui-ux-design-500x500.jpeg" height="500" width="500" alt="Finza">
-                </div>
-            </div>
+            </div>            
         </div>
 
 
-        <div class="row">
+        <div class="row md-padding-20px-all">
             <div class="col-md-5 col-sm-5 wow fadeInLeft animated">
                 <div class="image-zoom">
                     <img src="images/strategy.jpg" height="500" width="500" alt="Finza">
@@ -294,30 +306,31 @@
     </div>
 </section>
 <!-- web-designing content end-->
+</section>
+
+
 
 <!-- footer -->
 <footer class="padding-40px-tb bg-blue">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <div class="text-small text-white xs-text-center xs-margin-15px-bottom">© 2022 Digital Amhser Made With Love By
-                    <a href="#." class="text-white">Themesindustry</a></div>
+                <div class="text-small text-white xs-text-center xs-margin-15px-bottom">© Made by Digital Amhser
+                </div>
             </div>
             <div class="col-sm-5 no-padding">
                 <div class="text-small footer-nav text-white">
-                    <a href="index.html#home" class="text-white">Home</a>
+                    <a href="index.html" class="text-white">Home</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#about" class="text-white">About Us</a>
+                    <a href="about-page.html" class="text-white">About Us</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#services" class="text-white">Services</a>
+                    <a href="portfolio-page.html" class="text-white">Portfolio</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#work" class="text-white">Portfolio</a>
+                    <a href="career.html" class="text-white">Career</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#career" class="text-white">Career</a>
+                    <a href="team-page.html" class="text-white">Our Team</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#blog" class="text-white">Blog</a>
-                    <span class="verticle-line"></span>
-                    <a href="index.html#contact" class="text-white">Contact</a>
+                    <a href="contact-page.html" class="text-white">Contact</a>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -337,19 +350,20 @@
 <!-- start scroll to top -->
 <a class="scroll-top-arrow" href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
 <!-- end scroll to top  -->
-
+<a href="https://api.whatsapp.com/send?phone=+919030243443&text=Hello Sir" class="whatsapp-button" target="_blank" style="position: fixed;  right: 25px; bottom: 70px;">
+    <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp">
+  </a>
 
 </div>
 </div>
     <!-- Push Nav Link -->
     <ul class="navbar outer-nav right vertical alt-font">
-        <li><a href="index.html#home" class="icon-home">Home</a></li>
-        <li><a href="index.html#about" class="icon-features">About</a></li>
-        <li><a href="index.html#services" class="icon-about">Services</a></li>
-        <li><a href="index.html#work" class="icon-work">Portfolio</a></li>
+        <li><a href="index.html" class="icon-home">Home</a></li>
+        <li><a href="about-page.html" class="icon-features">About</a></li>
+        <li><a href="portfolio-page.html" class="icon-work">Portfolio</a></li>
         <li><a href="career.html" class="icon-pricing">Career</a></li>
-        <li><a href="index.html#blog" class="icon-blog">Blog</a></li>
-        <li><a href="index.html#contact" class="icon-contact">Contact</a></li>
+        <li><a href="team-page.html" class="icon-blog">Our Team</a></li>
+        <li><a href="contact-page.html" class="icon-contact">Contact</a></li>
     </ul>
 </div>
 
@@ -402,5 +416,19 @@
 <script src="js/map.js"></script>
 <!-- setting -->
 <script src="js/main.js"></script>
+<!-- bootstrap Javascrip -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script>
+    $(function(){
+    $('.dropdown').hover(function() {
+        $(this).addClass('open');
+    },
+    function() {
+        $(this).removeClass('open');
+    });
+});
+</script>
 </body>
 </html>

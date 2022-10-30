@@ -1125,7 +1125,6 @@ Google Font
     color: #141414 !important;
 }
 
-
 /*contact */
 .contact-form input, .contact-form textarea {
     border: none;
@@ -1166,7 +1165,7 @@ Google Font
 }
 
 .map {
-    height: 650px;
+    height: 735px;
     width: 95%;
     margin: 0 auto;
 }
@@ -3704,6 +3703,10 @@ background-attachment: fixed;
 }
 
 @media screen and (max-width: 768px) {
+
+    .carousel-inner .item img{
+        height: 450px;
+    }
     .process-wrapp {
         display: block;
     }
@@ -3861,6 +3864,9 @@ background-attachment: fixed;
 }
 
 @media screen and (max-width: 500px) {
+    .carousel-inner .item img{
+        height: 350px;
+    }
     .header-searchbar {
         padding-left: 0px;
         margin-left: -15px;}
@@ -3868,7 +3874,9 @@ background-attachment: fixed;
 
 
 @media screen and (max-width: 400px) {
-
+    .carousel-inner .item img{
+        height: 250px;
+    }
     .btn.btn-rounded.btn-blog {
         font-size: 11px;
         padding: 1px 4px;

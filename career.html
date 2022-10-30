@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/animate.min.css"/>
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
     <!-- font-awesome icon -->
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,7 +43,6 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/custom.css"/>
 
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -61,7 +62,7 @@
                     <div class="container nav-header-container">
                         <div class="row">
                             <div class="col-md-2 col-xs-5">
-                                <a href="#home" title="Logo" class="logo inner-link"><img src="images/logo.png" class="logo-dark" alt="Digital Amhser"><img src="images/logo.png" alt="Digital Amhser" class="logo-light default"></a>
+                                <a href="#home" title="Logo" style="font-size: 3rem; font-weight: 900;"><span class="text-blue">Digital</span> <span class="text-dark-blue">Amhser</span></a>
                             </div>
                             <!-- end logo -->
                             <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right hidden-sm hidden-xs no-padding">
@@ -69,28 +70,37 @@
                                     <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                         <!-- start menu item -->
                                         <li>
-                                            <a href="index.html#home">Home</a>
+                                            <a href="index.html">Home</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#about">About As</a>
+                                            <a href="about-page.html">About Us</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"   role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                                            <ul class="dropdown-menu border-radius-5">
+                                                <li><a href="web-designing.html"><span class="text-black">Web Designing</span></a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="digital-marketing.html"><span class="text-black">Digital Marketing</span></a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="application-development.html"><span class="text-black">Application development</span></a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="graphic-designing.html"><span class="text-black">Graphic Design & Branding</span></a></li>
+                                            </ul>
                                         </li>
                                         <li>
-                                            <a href="index.html#services">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#work">Portfolio</a>
+                                            <a href="portfolio-page.html">Portfolio</a>
                                         </li>
                                         <li class="active">
                                             <a href="career.html">Career</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#blog">Blog</a>
+                                            <a href="team-page.html" >Our Team</a>
                                         </li>
                                         <li>
-                                            <a href="index.html/#contact">Contect As</a>
+                                            <a href="contact-page.html">CONTACT US</a>
                                         </li>
                                         <li>
-                                            <a href="index.html/#payNow">Pay Now</a>
+                                            <a href="pay-now-page.html">Pay Now</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -119,19 +129,8 @@
             </header>
 <!-- end header -->
 
-<!-- web-designing cover-->
-<section class="bg-career">
-    <div class="container">
-        <div class="text-center sm-padding-40px-tb sm-padding-15px-lr">
-            <h5 class="text-uppercase alt-font text-black margin-20px-bottom font-weight-700">
-                &nbsp;</h5>
-        </div>
-    </div>
-</section>
-<!-- web-designing end-->
-
 <!-- web-designing content-->
-<section id="shop" class="shop-details text-left">
+<section id="shop" class="shop-details text-left md-margin-80px-top">
     <h2 class="display-none" aria-hidden="true">Finza</h2>
     <div class="container">
         <div class="col-lg-9 col-md-10 col-sm-12 text-center center-col margin-80px-bottom">
@@ -148,11 +147,11 @@
 
         <div class="container margin-80px-bottom fa-border border-radius-2">
             <h4 class="font-weight-100 text-black">1.	Web Developer</h4>
-            <div class="margin-50px-left text-black">
-                <p class="font-weight-500">Full Job Descriptions</p>
+            <div class="margin-50px-left md-no-margin text-black">
+                <p class="font-weight-700">Full Job Descriptions</p>
                 <p>Our company is looking for a skilled Web Developer to join us innovative and ever-growing team. The ideal candidate for this position is a detailed, organized self-starter with experience and passion for building engaging digital experiences from concept to launch and has a passion for marketing and can incorporate strong design, B2B digital marketing best practices, and marketing technology expertise into their development projects. And equally important, you are willing to dive in to understand and solve problems.</p>
-                <p class="font-weight-500 text-black">Your responsibilities will include but not limited to:</p>
-                <ul style="list-style:disc ;">
+                <p class="font-weight-700 text-black">Your responsibilities will include but not limited to:</p>
+                <ul class="md-no-margin md-no-padding">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> Write well designed, testable, efficient code by using best software development practices</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Create website layout/user interface by using standard HTML/CSS practices</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Integrate data from various back-end services and databases</li>
@@ -168,8 +167,8 @@
                 </ul>
 
 
-                <p class="font-weight-500 text-black">Requirements <br>To be considered for this role, the candidate needs to meet the following criteria:</p>
-                <ul style="list-style:disc ;">
+                <p class="font-weight-700 text-black">Requirements <br>To be considered for this role, the candidate needs to meet the following criteria:</p>
+                <ul class="md-no-margin md-no-padding">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> 5+ years’ experience in front end web development with strong hand coding experience in HTML, CSS, JavaScript (JQuery), and responsive design frameworks (Bootstrap).</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Experience managing and updating a portfolio of websites with frequent updates.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> A strong eye for design and layout and web/mobile UI/UX</li>
@@ -181,27 +180,29 @@
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Strong written and verbal communication skills.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> BA/BS in Marketing, Computer Science, Graphic Design, or Engineering are desirable.</li>
                 </ul>
-
-
+                <div class="text-center">
+                    <a class="btn btn-blue btn-medium text-extra-small margin-10px-bottom"
+                           href="contact-page.html">Apply Now</a>
+                </div>
             </div>
             
         </div>
 
         <div class="container margin-80px-bottom fa-border border-radius-2">
             <h4 class="font-weight-100 text-black">2.	BUSINESS DEVELOPMENT MANAGER</h4>
-            <div class="margin-50px-left text-black">
-                <p class="font-weight-500">Full Job Descriptions</p>
+            <div class="margin-50px-left md-no-margin text-black">
+                <p class="font-weight-700">Full Job Descriptions</p>
                 <p>We are currently looking for passionate, experienced and result-oriented candidates for the role of Business Development Manager (with IT Software Sales background, specifically in Websites and Mobile Apps) to join our team.</p>
-                <p class="font-weight-500 text-black">The ideal candidate should:</p>
-                <ul style="list-style:disc ;">
+                <p class="font-weight-700 text-black">The ideal candidate should:</p>
+                <ul class="md-no-padding md-no-margin">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> Have strong communication, negotiation and sales skills.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Have a strong knowledge and experience in selling Web Solutions, Software Solutions and Mobile App Solutions.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Be a fast learner and an excellent team-player</li>
                 </ul>
 
 
-                <p class="font-weight-500 text-black">Duties & Responsibilities:</p>
-                <ul style="list-style:disc ;">
+                <p class="font-weight-700 text-black">Duties & Responsibilities:</p>
+                <ul class="md-no-padding md-no-margin">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> Develop new business opportunities by targeting clients in various industries/sectors, in the UAE, INDIA and any regions.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Arrange and attend meetings/calls with the prospective clients/leads with a clear customized sales pitch.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Conduct presentations to educate clients and play a consultancy role in suggesting the ideal solutions to meet client’s requirements.</li>
@@ -213,8 +214,8 @@
                 </ul>
 
 
-                <p class="font-weight-500 text-black">Skills & Qualifications:</p>
-                <ul style="list-style:disc ;">
+                <p class="font-weight-700 text-black">Skills & Qualifications:</p>
+                <ul class="md-no-padding md-no-margin">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> DBachelor of Marketing / Business Management or any other related field</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Proven work experience in IT Software Sales filed, specifically in Web Solutions, Software Solutions and Mobile App Solutions – minimum 3-6 years in the same capacity is a MUST</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Knowledge about the market/industry/new technologies is a MUST.</li>
@@ -224,27 +225,29 @@
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Client Relationship Management Skills.</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Proven track records in an IT Project Management role will be an added advantage.</li>
                 </ul>
-
-
+                <div class="text-center">
+                    <a class="btn btn-blue btn-medium text-extra-small margin-10px-bottom"
+                           href="contact-page.html">Apply Now</a>
+                </div>
             </div>
             
         </div>
 
         <div class="container margin-80px-bottom fa-border border-radius-2">
             <h4 class="font-weight-100 text-black">3.	SALES EXCUTIVE</h4>
-            <div class="margin-50px-left text-black">
-                <p class="font-weight-500 text-black">Responsibility deliverable </p>
-                <ul style="list-style:disc ;">
+            <div class="margin-50px-left md-no-margin text-black">
+                <p class="font-weight-700 text-black">Responsibility deliverable </p>
+                <ul class="md-no-padding">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> Data Sourcing and Management </li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Tele Calls to generate meetings </li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Develop Selling Skills and business knowledge to grow into a Business Development Manager</li>
                 </ul>
 
 
-                <p class="font-weight-500 text-black">Task & Activities</p>
+                <p class="font-weight-700 text-black">Task & Activities</p>
                 <p>Data Sourcing and Management : -  • Sourcing accurate contact details from online sources like ___,____,_____, of the decision maker of events from the HR and Management departments of Companies in the Business of Smartphones, Ecommerce ,IT Product etc etc etc etc ...                            </p>
 
-                <ul style="list-style:disc ;">
+                <ul class="md-no-padding">
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"></i> Maintaining the data base on the internal templates of the Organization Tele-Calling to generate meetings</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Spending 5 hours per day on calling up the decision makers of the target customer to get meetings for the sales team</li>
                     <li class="margin-10px-bottom"><i class="fa-solid fa-circle font-weight-100"> </i> Write emails professionally to share company profile or any information the prospective client seeks about the company</li>
@@ -252,8 +255,10 @@
                     <li class="margin-10px-bottom"> <i class="fa-solid fa-circle font-weight-100"></i> Develop Selling Skills and Business Knowledge to grow into Business Development Manager</li>
                     <li class="margin-10px-bottom"> <i class="fa-solid fa-circle font-weight-100"> </i> After completing setting up 15 meetings per month, Tele Marketing Executive shall accompany BDE for meetings.</li>
                 </ul>
-
-
+                <div class="text-center">
+                    <a class="btn btn-blue btn-medium text-extra-small margin-10px-bottom"
+                           href="contact-page.html">Apply Now</a>
+                </div>
             </div>
             
         </div>
@@ -263,29 +268,28 @@
 </section>
 <!-- web-designing content end-->
 
+
 <!-- footer -->
 <footer class="padding-40px-tb bg-blue">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <div class="text-small text-white xs-text-center xs-margin-15px-bottom">© 2022 Digital Amhser Made With Love By
-                    <a href="#." class="text-white">Themesindustry</a></div>
+                <div class="text-small text-white xs-text-center xs-margin-15px-bottom">© Made by Digital Amhser
+                </div>
             </div>
             <div class="col-sm-5 no-padding">
                 <div class="text-small footer-nav text-white">
-                    <a href="index.html#home" class="text-white">Home</a>
+                    <a href="index.html" class=" text-white">Home</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#about" class="text-white">About Us</a>
+                    <a href="about-page.html" class=" text-white">About Us</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#services" class="text-white">Services</a>
+                    <a href="portfolio-page.html" class=" text-white">Portfolio</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#work" class="text-white">Portfolio</a>
+                    <a href="#" class="text-white">Career</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#career" class="text-white">Career</a>
+                    <a href="team-page.html" class=" text-white">Our Team</a>
                     <span class="verticle-line"></span>
-                    <a href="index.html#blog" class="text-white">Blog</a>
-                    <span class="verticle-line"></span>
-                    <a href="index.html#contact" class="text-white">Contact</a>
+                    <a href="contact-page.html" class=" text-white">Contact</a>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -305,19 +309,21 @@
 <!-- start scroll to top -->
 <a class="scroll-top-arrow" href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
 <!-- end scroll to top  -->
+<a href="https://api.whatsapp.com/send?phone=+919030243443&text=Hello Sir" class="whatsapp-button" target="_blank" style="position: fixed;  right: 25px; bottom: 70px;">
+    <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp">
+  </a>
 
 
 </div>
 </div>
     <!-- Push Nav Link -->
     <ul class="navbar outer-nav right vertical alt-font">
-        <li><a href="index.html#home" class="icon-home">Home</a></li>
-        <li><a href="index.html#about" class="icon-features">About</a></li>
-        <li><a href="index.html#services" class="icon-about">Services</a></li>
-        <li><a href="index.html#work" class="icon-work">Portfolio</a></li>
-        <li><a href="career.html" class="icon-pricing">Career</a></li>
-        <li><a href="index.html#blog" class="icon-blog">Blog</a></li>
-        <li><a href="index.html#contact" class="icon-contact">Contact</a></li>
+        <li><a href="index.html" class="icon-home">Home</a></li>
+        <li><a href="about-page.html" class="icon-features">About</a></li>
+        <li><a href="portfolio-page.html" class= icon-work">Portfolio</a></li>
+        <li><a href="#" class="icon-pricing">Career</a></li>
+        <li><a href="team-page.html" class="icon-blog">Our Team</a></li>
+        <li><a href="contact-page.html" class="icon-contact">Contact</a></li>
     </ul>
 </div>
 
@@ -370,5 +376,27 @@
 <script src="js/map.js"></script>
 <!-- setting -->
 <script src="js/main.js"></script>
+<!-- bootstrap Javascrip -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script>
+    $(function(){
+    $('.dropdown').hover(function() {
+        $(this).addClass('open');
+    },
+    function() {
+        $(this).removeClass('open');
+    });
+});
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
